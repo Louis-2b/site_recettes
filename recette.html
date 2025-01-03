@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Déclaration du type de document et définition de la langue -->
+        <title>Recette gateau</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+        <meta charset="UTF-8"> <!-- Encodage des caractères pour supporter les caractères spéciaux -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Définition de la taille de l'écran -->
+        <link rel="stylesheet" href="recette.css"> <!-- Lien vers la feuille de style CSS -->
+    </head>
+
+    <body>
+        <!-- Conteneur principal de la page -->
+        <div class="contenu">
+            
+            <!-- Section Catégorie -->
+            <div class="centre categorie">
+                <p class="categorie">Recette</p> <!-- Indique la catégorie du contenu -->
+            </div>
+
+            <!-- Titre principal de la recette -->
+            <h1>Gateau au chocolat</h1>
+            
+            <!-- Séparateur visuel -->
+            <div class="separateur"></div>
+
+            <!-- Description de la recette -->
+            <div class="centre">
+                <p class="description">"Cette recette facile du gateau au chocolat est un grand classique. Elle fera plaisir aux plus gourmands."</p>
+            </div>
+
+            <!-- Informations générales de la recette -->
+            <div class="info">
+                <!-- Image du gâteau -->
+                <img class="centre info" src="gateau-chocolat.jpeg" alt="Image du gateau au chocolat">
+
+                <!-- Tableau des informations clés -->
+                <table class="info">
+                    <tr>
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Cuisson</th>
+                        <th>Temps total</th>
+                    </tr>
+                    <tr>
+                        <td>Facile</td>
+                        <td>10 min</td>
+                        <td>25 min</td>
+                        <td>35 min</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Section Ingrédients et Préparation -->
+            <div>
+                <!-- Colonne des Ingrédients -->
+                <div class="colonne1 colonne">
+                    <h2>Ingrédients</h2> <!-- Sous-titre de la section -->
+                    <div class="ingredients">
+                        <p>Chocolat noir : 200 g</p>
+                        <p>Sucre : 150 g</p>
+                        <p>Beurre : 200 g</p>
+                        <p>Oeufs : 4</p>
+                        <p>Farine : 80 g</p>
+                    </div>
+                </div>
+
+                <!-- Colonne de la Préparation -->
+                <div class="colonne2 colonne">
+                    <h2>Préparation</h2> <!-- Sous-titre de la section -->
+                    <table class="preparation">
+                        <!-- Étape 1 -->
+                        <tr>
+                            <td><p class="numero">1</p></td>
+                            <td class="preparation_etape">Faire fondre le chocolat avec le beurre</td>
+                        </tr>
+                        <!-- Étape 2 -->
+                        <tr>
+                            <td><p class="numero">2</p></td>
+                            <td class="preparation_etape">Mélanger le sucre, les œufs et la farine</td>
+                        </tr>
+                        <!-- Étape 3 -->
+                        <tr>
+                            <td><p class="numero">3</p></td>
+                            <td class="preparation_etape">Mélanger le tout pour faire une pâte</td>
+                        </tr>
+                        <!-- Étape 4 -->
+                        <tr>
+                            <td><p class="numero">4</p></td>
+                            <td class="preparation_etape">Mettre au four.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

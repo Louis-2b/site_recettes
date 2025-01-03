@@ -1,0 +1,216 @@
+/* Applique un overflow automatique à tous les éléments */
+* {
+    overflow: auto;
+}
+
+/* Styles pour le corps de la page */
+body {
+    background-color: #8BA1BB; /* Couleur de fond de la page */
+    font-family: Arial; /* Police de la page */
+}
+
+/* Styles pour le paragraphe de la catégorie */
+p.categorie {
+    background-color: black; /* Couleur de fond noire */
+    color: white; /* Couleur du texte blanche */
+    display: inline-block; /* Affichage en ligne avec les blocs */
+    margin-top: -15px; /* Marge supérieure négative pour ajuster la position */
+    padding: 8px 18px; /* Espacement intérieur */
+    margin-bottom: 0px; /* Pas de marge inférieure */
+    font-weight: bold; /* Texte en gras */
+    font-size: 16px; /* Taille de la police */
+}
+
+/* Styles pour le div de la catégorie */
+div.categorie {
+    margin-bottom: 0px; /* Pas de marge inférieure */
+    margin-top: 0px; /* Pas de marge supérieure */
+    overflow: visible; /* Overflow visible */
+}
+
+/* Styles pour le conteneur principal */
+div.contenu {
+    background-color: white; /* Couleur de fond blanche */
+    margin: 40px 8px 40px 8px; /* Marge extérieure */
+    padding: 0px 8px 20px 8px; /* Espacement intérieur */
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1); /* Ombre du conteneur */
+    overflow: visible; /* Overflow visible */
+}
+
+/* Styles pour le titre principal */
+h1 {
+    text-align: center; /* Alignement centré */
+    margin-bottom: 12px; /* Marge inférieure */
+    margin-top: 10px; /* Marge supérieure */
+}
+
+/* Styles pour la description */
+p.description {
+    text-align: center; /* Alignement centré */
+    max-width: 400px; /* Largeur maximale */
+    display: inline-block; /* Affichage en ligne avec les blocs */
+    font-size: 14px; /* Taille de la police */
+}
+
+/* Styles pour les éléments centrés */
+.centre {
+    text-align: center; /* Alignement centré */
+    width: 100%; /* Largeur 100% */
+}
+
+/* Styles pour le séparateur */
+div.separateur {
+    width: 100%; /* Largeur 100% */
+    height: 1px; /* Hauteur de 1px */
+    background-color: black; /* Couleur de fond noire */
+    margin-left: auto; /* Marge à gauche automatique */
+    margin-right: auto; /* Marge à droite automatique */
+}
+
+/* Styles pour la section d'information */
+div.info {
+    position: relative; /* Position relative pour les éléments enfants */
+}
+
+/* Styles pour le tableau d'information */
+table.info {
+    position: absolute; /* Position absolue */
+    bottom: 0%; /* Aligné en bas */
+    width: 100%; /* Largeur 100% */
+    color: white; /* Couleur du texte blanche */
+    background-color: #6C829DC0; /* Couleur de fond avec opacité */
+    height: 50px; /* Hauteur de 50px */
+}
+
+/* Styles pour les cellules du tableau d'information */
+table.info td {
+    text-align: center; /* Alignement centré */
+    font-size: 12px; /* Taille de la police */
+    vertical-align: top; /* Alignement vertical en haut */
+}
+
+/* Styles pour les en-têtes du tableau d'information */
+table.info th {
+    font-size: 14px; /* Taille de la police */
+    vertical-align: bottom; /* Alignement vertical en bas */
+    padding: 4px; /* Espacement intérieur */
+}
+
+/* Styles pour l'image d'information */
+img.info {
+    display: block; /* Affichage en bloc */
+    max-height: 400px; /* Hauteur maximale */
+    object-fit: cover; /* Ajustement de l'image pour couvrir le conteneur */
+    min-height: 200px; /* Hauteur minimale */
+    background-color: lightgray; /* Couleur de fond gris clair */
+}
+
+/* Styles pour les colonnes */
+div.colonne {
+    width: 100%; /* Largeur de 45% */
+    margin-top: 20px; /* Marge supérieure */
+}
+
+/* Styles pour les titres des colonnes */
+div.colonne h2 {
+    text-align: center; /* Alignement centré */
+    text-transform: uppercase; /* Texte en majuscules */
+    font-size: 15px; /* Taille de la police */
+    border-bottom: 5px solid #6C829D; /* Bordure inférieure */
+    padding-bottom: 5px; /* Espacement intérieur en bas */
+}
+
+/* Styles spécifiques pour la première colonne */
+div.colonne1 {
+    display: inline-block; /* Affichage en ligne avec les blocs */
+}
+
+/* Styles pour les ingrédients */
+div.ingredients p {
+    text-align: center; /* Alignement centré */
+    font-size: 14px; /* Taille de la police */
+    border: 2px solid lightgray; /* Bordure gris clair */
+    padding: 8px 0; /* Espacement intérieur */
+    margin-top: 4px; /* Marge supérieure */
+    margin-bottom: 0; /* Pas de marge inférieure */
+}
+
+/* Styles pour les numéros des étapes de préparation */
+table.preparation p.numero {
+    background-color: #6C829D; /* Couleur de fond */
+    color: white; /* Couleur du texte blanche */
+    width: 25px; /* Largeur */
+    height: 25px; /* Hauteur */
+    text-align: center; /* Alignement centré */
+    font-size: 14px; /* Taille de la police */
+    font-weight: bold; /* Texte en gras */
+    padding-top: 4px; /* Espacement intérieur en haut */
+    box-sizing: border-box; /* Inclusion des bordures dans les dimensions */
+    border-radius: 50%; /* Bordures arrondies */
+    margin: 0; /* Pas de marge */
+}
+
+/* Styles pour les cellules du tableau de préparation */
+table.preparation td {
+    vertical-align: top; /* Alignement vertical en haut */
+}
+
+/* Styles pour les étapes de préparation */
+table.preparation td.preparation_etape {
+    font-size: 14px; /* Taille de la police */
+    padding-left: 10px; /* Espacement intérieur à gauche */
+    padding-bottom: 10px; /* Espacement intérieur en bas */
+}
+
+/* Styles pour les lignes du tableau de préparation */
+table.preparation tr {
+    height: 45px; /* Hauteur de 45px */
+}
+
+
+/* Styles pour ordinateur */
+@media only screen and (min-width: 768px) {
+    div.contenu {
+        margin: 60px 10% 80px 10%; /* Marge extérieure */
+        padding: 0px 30px 30px 30px; /* Espacement intérieur */
+        min-width: 350px; /* Largeur minimale */
+    }
+
+    /* Styles pour le tableau d'information */
+    table.info {
+        height: 80px; /* Hauteur de 80px */
+    }
+
+    /* Styles pour les cellules du tableau d'information */
+    table.info td {
+        font-size: 14px; /* Taille de la police */
+    }
+
+    /* Styles pour les en-têtes du tableau d'information */
+    table.info th {
+        font-size: 16px; /* Taille de la police */
+    }
+
+    /* Styles pour les colonnes */
+    div.colonne {
+        width: 45%; /* Largeur de 45% */
+    }
+
+    /* Styles spécifiques pour la première colonne */
+    div.colonne1 {
+        margin-right: 10%; /* Marge à droite */
+    }
+
+    /* Styles spécifiques pour la deuxième colonne */
+    div.colonne2 {
+        float: right; /* Flottant à droite */
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.contenu {
+        margin-left: auto; /* Marge à gauche automatique */
+        margin-right: auto; /* Marge à droite automatique */
+        width: 645px; /* Largeur de 645px */
+    }
+}
